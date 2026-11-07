@@ -94,3 +94,27 @@ The reviewed QA dataset will be used for a controlled modality-ablation experime
 - Audio + Transcript
 
 These results will be used to test whether different question types show different modality requirements and, later, whether an adaptive router can achieve a better accuracy-efficiency tradeoff than fixed modality strategies.
+
+## Modality-Ablation Baseline Results
+
+We ran this experiment on the 81-question version of the dataset with two audio LLMs, **Qwen2.5-Omni-7B** and **Gemma 4 E4B** (`google/gemma-4-E4B-it`). Every question was asked in all three conditions, and answers were graded against the gold answer by an LLM judge (Qwen2-7B-Instruct), with clear judge errors corrected by hand. The table shows correct answers out of the total, split by the question's `question_type_corrected` label.
+
+| Question type | Model | Transcript Only | Audio Only | Audio + Transcript |
+| --- | --- | --- | --- | --- |
+| TEXT (26) | Qwen | 25 | 22 | 25 |
+| | Gemma | 25 | 19 | 25 |
+| AUDIO (28) | Qwen | 14 | 15 | 16 |
+| | Gemma | 8 | 12 | 12 |
+| BOTH (27) | Qwen | 14 | 12 | 12 |
+| | Gemma | 12 | 12 | 15 |
+| All (81) | Qwen | 53 | 49 | 53 |
+| | Gemma | 45 | 43 | 52 |
+
+Main findings:
+
+- **Without audio, both models do much worse on AUDIO questions than on TEXT questions** (transcript only: 25/26 on TEXT vs 14/28 and 8/28 on AUDIO), which supports the idea that these questions need audio.
+- **Giving the audio does not fully close the gap:** AUDIO questions reach only 15/28 and 12/28 with audio alone, so they are also hard in general.
+- **Without the transcript, TEXT accuracy drops,** mostly because the models mishear names and words.
+- **Having both modalities helps Gemma** (52/81 vs 45/81 transcript only) **but not Qwen.**
+
+With about 27 questions per type, most differences are not statistically significant. Code, per-question outputs, confidence intervals, significance tests and instructions for rerunning are in [`baseline_eval/`](baseline_eval/README.md).

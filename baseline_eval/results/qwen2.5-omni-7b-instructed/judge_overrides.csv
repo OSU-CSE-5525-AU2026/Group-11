@@ -1,0 +1,9 @@
+qid,setting,correct,reason
+A002,audio_and_transcript,True,"Answered Yes, matching the gold polarity"
+A002,audio_only,True,"Answered Yes, matching the gold polarity"
+A002,transcript_only,True,"Answered Yes, matching the gold polarity"
+A013,audio_and_transcript,False,Answered Reluctant; gold is Enthusiastic
+A013,transcript_only,False,Answered Reluctant; gold is Enthusiastic
+A019,transcript_only,False,Answered Frustrated; gold is Pleased
+AT008,audio_only,False,Says the voice does not contradict the claim; gold says she sounds sad
+AT021,audio_only,False,Answered anger; gold is disgusted

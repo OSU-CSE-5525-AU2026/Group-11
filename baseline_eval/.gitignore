@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# MELD media is not ours to redistribute; regenerate with adamoss.prepare_audio.
+data/audio/
+
+logs/
+.pytest_cache/

@@ -1,0 +1,17 @@
+qid,setting,correct,reason
+A006,audio_only,False,Named an emotion; gold says none
+A006,transcript_only,False,Refused to answer
+A010,audio_and_transcript,False,Refused to answer
+A010,audio_only,False,Refused to answer
+A010,transcript_only,False,Refused to answer
+A013,audio_only,False,Answered Reluctant; gold is Enthusiastic
+A016,audio_and_transcript,False,Refused to answer
+A017,transcript_only,False,Refused to answer
+A018,transcript_only,False,Refused to answer
+A020,transcript_only,False,Refused to answer
+A022,audio_only,False,Answered No; gold is Yes
+AT006,transcript_only,False,Answered indifferent; gold is hurt or disappointed
+AT008,transcript_only,True,"Says the voice does not support the claim, as the same answer was accepted elsewhere"
+AT012,transcript_only,False,Declined to judge the delivery
+test-dia210_utt4-q2,audio_and_transcript,False,Refused to answer
+test-dia210_utt4-q2,transcript_only,False,Refused to answer
