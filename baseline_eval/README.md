@@ -109,6 +109,70 @@ sbatch --account=<your-account> slurm/run_eval.sbatch qwen2.5-omni-7b-instructed
 sbatch --account=<your-account> slurm/run_eval.sbatch gemma-4-e4b-it google/gemma-4-E4B-it
 ```
 
+## Model roster
+
+What we have, and what we plan to add. **Done** means results are in [`results/`](results/);
+**Planned** means the code is ready but the model has not been run yet (and the new code paths
+have not been tested on a GPU). Sizes are total parameters from the Hugging Face model pages.
+**FM** is a large general-purpose pretrained model used zero-shot by prompting; **DNN** is a
+smaller task-specific network (our own labels, not a standard term).
+
+### Transcript only (text in, no audio)
+
+| Model | Type | Params | Status |
+| --- | --- | --- | --- |
+| Qwen2.5-Omni-7B (audio removed) | FM | 10.7B | Done |
+| Gemma 4 E4B (audio removed) | FM | 8.0B (4B effective) | Done |
+| `Qwen/Qwen2.5-7B-Instruct` | FM | 7.6B | Planned |
+| `meta-llama/Llama-3.1-8B-Instruct` (gated) | FM | 8.0B | Planned |
+| `allenai/OLMo-2-1124-7B-Instruct` | FM | 7.3B | Planned |
+| `microsoft/Phi-4-mini-instruct` | FM | 3.8B | Planned |
+| `google/flan-t5-large` | DNN | 0.78B | Planned |
+| `allenai/unifiedqa-v2-t5-large-1363200` | DNN | ~0.74B | Planned |
+| `deepset/roberta-base-squad2` (extractive) | DNN | 0.12B | Planned |
+
+### Audio only (audio in, no transcript)
+
+| Model | Type | Params | Status |
+| --- | --- | --- | --- |
+| Qwen2.5-Omni-7B | FM | 10.7B | Done |
+| Gemma 4 E4B | FM | 8.0B (4B effective) | Done |
+| `Qwen/Qwen2-Audio-7B-Instruct` | FM | 8.4B | Planned |
+| `mistralai/Voxtral-Mini-3B-2507` | FM | 4.7B | Planned |
+| `Qwen/Qwen2.5-Omni-3B` | FM | 5.5B | Planned |
+| `google/gemma-4-E2B-it` | FM | 5.1B (2B effective) | Planned |
+| `google/gemma-3n-E4B-it` (gated) | FM | 7.9B (4B effective) | Planned |
+| Whisper (`openai/whisper-large-v3-turbo`) + any text LLM above | FM + FM | 0.81B + LLM | Planned |
+
+The Whisper cascade sees only what the speech recognizer heard, so it cannot use tone.
+
+### Audio + transcript
+
+The same audio LLMs as in the audio-only table: Qwen2.5-Omni-7B and Gemma 4 E4B are **done**, and
+the five other audio LLMs are **planned**. A single run covers all three settings.
+
+### Running on OSC
+
+Submit from `baseline_eval/` after `mkdir -p logs`; audio models also need
+`python -m adamoss.prepare_audio` first. Gated models need access approved on Hugging Face.
+
+```bash
+# Text-only model (chat, T5-style or extractive; the kind is guessed from the id)
+sbatch --account=<acct> slurm/run_text_eval.sbatch qwen2.5-7b-instruct Qwen/Qwen2.5-7B-Instruct
+
+# Audio LLM, all three settings
+sbatch --account=<acct> slurm/run_eval.sbatch qwen2-audio-7b Qwen/Qwen2-Audio-7B-Instruct
+
+# Audio-only setting: an audio LLM, or the Whisper cascade
+sbatch --account=<acct> slurm/run_audio_only_eval.sbatch llm qwen2-audio-7b-audio-only Qwen/Qwen2-Audio-7B-Instruct
+sbatch --account=<acct> slurm/run_audio_only_eval.sbatch asr whisper-qwen2.5-7b Qwen/Qwen2.5-7B-Instruct
+```
+
+Each run writes `predictions.jsonl` and the score tables to `results/<run-name>/`. Code:
+`adamoss/infer_text.py` (text-only), `adamoss/infer.py` (audio LLMs, recipe chosen by
+`adamoss/model_family.py`) and `adamoss/infer_asr.py` (Whisper cascade). Phi-4-multimodal was left
+out because it needs custom remote code that is unlikely to work with the pinned `transformers`.
+
 ## Dataset notes
 
 [`data/meld_qa.csv`](data/meld_qa.csv) is the unmodified spreadsheet export, a newer
@@ -142,7 +206,10 @@ adamoss/
   data.py            Load and clean the QA spreadsheet
   prepare_audio.py   Extract audio from the MELD archives
   prompts.py         Input settings and answer/judge prompts
-  infer.py           Generate answers with Qwen2.5-Omni or Gemma 4
+  infer.py           Generate answers with audio LLMs (Qwen2.5-Omni, Qwen2-Audio, Voxtral, Gemma)
+  infer_text.py      Transcript-only answers from text models (LLM, T5, extractive)
+  infer_asr.py       Audio-only cascade: Whisper, then a text model
+  model_family.py    Choose the loading recipe from a model id
   metrics.py         Token F1, Wilson intervals, McNemar test
   score.py           Judge answers and write result tables
 data/meld_qa.csv     QA dataset

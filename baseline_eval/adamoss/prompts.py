@@ -39,6 +39,35 @@ Candidate answer: {prediction}
 Reply with exactly one word: CORRECT or INCORRECT."""
 
 
+def build_voxtral_conversation(setting: str, question: str, transcript: str, audio_path: str) -> list[dict]:
+    """The same prompt as ``build_conversation``, in the shape Voxtral's processor expects.
+
+    Audio is given as ``{"type": "audio", "path": ...}`` and there is a single user turn,
+    so the system prompt is placed at the start of the text instead of in its own message.
+    """
+    _, user = build_conversation(setting, question, transcript, audio_path)
+    content = []
+    for part in user["content"]:
+        if part["type"] == "audio":
+            content.append({"type": "audio", "path": part["audio"]})
+        else:
+            content.append({"type": "text", "text": f"{ANSWER_SYSTEM_PROMPT}\n\n{part['text']}"})
+    return [{"role": "user", "content": content}]
+
+
+def build_text_messages(question: str, transcript: str) -> list[dict]:
+    """The transcript-only prompt as plain-string chat messages, for text-only models.
+
+    Same wording as ``build_conversation(TRANSCRIPT_ONLY, ...)``, but with string content
+    because text-only chat templates do not accept the multimodal list format.
+    """
+    conversation = build_conversation(TRANSCRIPT_ONLY, question, transcript, audio_path="")
+    return [
+        {"role": message["role"], "content": "\n\n".join(part["text"] for part in message["content"])}
+        for message in conversation
+    ]
+
+
 def build_conversation(
     setting: str, question: str, transcript: str, audio_path: str, audio_first: bool = True
 ) -> list[dict]:

@@ -1,7 +1,7 @@
 """Answer every QA example under each input setting with an audio LLM.
 
-Supports Qwen2.5-Omni (the default) and Gemma 4 models with audio, such as
-google/gemma-4-E4B-it.
+Supports Qwen2.5-Omni (the default), Qwen2-Audio, Voxtral and Gemma models with audio,
+such as google/gemma-4-E4B-it. The recipe is chosen from the model id.
 
 Predictions are appended to ``<run-dir>/predictions.jsonl`` as they are produced, and
 finished (question, setting) pairs are skipped on restart, so an interrupted job resumes.
@@ -21,15 +21,19 @@ from typing import Any
 import librosa
 import torch
 from transformers import (
+    AutoModelForImageTextToText,
     AutoModelForMultimodalLM,
     AutoProcessor,
     Qwen2_5OmniForConditionalGeneration,
     Qwen2_5OmniProcessor,
+    Qwen2AudioForConditionalGeneration,
+    VoxtralForConditionalGeneration,
 )
 
 from adamoss.data import QAExample, load_examples
+from adamoss.model_family import model_family
 from adamoss.prepare_audio import SAMPLE_RATE
-from adamoss.prompts import SETTINGS, TRANSCRIPT_ONLY, build_conversation
+from adamoss.prompts import SETTINGS, TRANSCRIPT_ONLY, build_conversation, build_voxtral_conversation
 
 
 class Answerer:
@@ -81,10 +85,43 @@ class OmniAnswerer(Answerer):
         return self.processor(text=prompt, audio=audio, return_tensors="pt", padding=True)
 
 
+class Qwen2AudioAnswerer(OmniAnswerer):
+    """Qwen2-Audio takes the same chat format and processor call as Qwen2.5-Omni."""
+
+    def __init__(self, model_id: str, max_new_tokens: int) -> None:  # Deliberately skips OmniAnswerer.__init__.
+        self.processor = AutoProcessor.from_pretrained(model_id)
+        self.model = Qwen2AudioForConditionalGeneration.from_pretrained(
+            model_id, dtype=torch.bfloat16, device_map="auto"
+        )
+        self.model.eval()
+        self.generator = self.model
+        self.max_new_tokens = max_new_tokens
+
+
+class VoxtralAnswerer(Answerer):
+    def __init__(self, model_id: str, max_new_tokens: int) -> None:
+        self.processor = AutoProcessor.from_pretrained(model_id)
+        self.model = VoxtralForConditionalGeneration.from_pretrained(
+            model_id, dtype=torch.bfloat16, device_map="auto"
+        )
+        self.model.eval()
+        self.generator = self.model
+        self.max_new_tokens = max_new_tokens
+
+    def prepare_inputs(self, example: QAExample, setting: str, audio_path: Path) -> Any:
+        # The processor reads the audio file itself, so no librosa step is needed.
+        return self.processor.apply_chat_template(
+            build_voxtral_conversation(setting, example.question, example.transcript, str(audio_path))
+        )
+
+
 class GemmaAnswerer(Answerer):
     def __init__(self, model_id: str, max_new_tokens: int) -> None:
         self.processor = AutoProcessor.from_pretrained(model_id)
-        self.model = AutoModelForMultimodalLM.from_pretrained(model_id, dtype="auto", device_map="auto")
+        try:
+            self.model = AutoModelForMultimodalLM.from_pretrained(model_id, dtype="auto", device_map="auto")
+        except ValueError:  # Older Gemma releases such as Gemma 3n are not in this mapping.
+            self.model = AutoModelForImageTextToText.from_pretrained(model_id, dtype="auto", device_map="auto")
         self.model.eval()
         self.generator = self.model
         self.max_new_tokens = max_new_tokens
@@ -105,8 +142,13 @@ class GemmaAnswerer(Answerer):
 
 
 def load_answerer(model_id: str, max_new_tokens: int) -> Answerer:
-    answerer_class = GemmaAnswerer if "gemma" in model_id.lower() else OmniAnswerer
-    return answerer_class(model_id, max_new_tokens)
+    answerer_classes = {
+        "omni": OmniAnswerer,
+        "qwen2audio": Qwen2AudioAnswerer,
+        "voxtral": VoxtralAnswerer,
+        "gemma": GemmaAnswerer,
+    }
+    return answerer_classes[model_family(model_id)](model_id, max_new_tokens)
 
 
 def load_finished(path: Path) -> set[tuple[str, str]]:
