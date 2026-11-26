@@ -1,0 +1,1001 @@
+id,question,label,subtype
+R0001,Which friend does the interviewer ask for help with the wedding?,TEXT,fact_who
+R0002,"What does Gunther ask Phoebe for, and does he sound excited or nervous?",BOTH,fact_plus_tone
+R0003,"What does Paul insist about himself, and is that believable from his delivery?",BOTH,sarcasm_meaning
+R0004,Is the speaker singing or talking?,AUDIO,delivery
+R0005,How many brothers does Richard say he has?,TEXT,fact_number
+R0006,Does Carol's anger build up or stay the same?,AUDIO,intensity
+R0007,Which of the woman's statements is sarcastic?,BOTH,sarcasm_meaning
+R0008,Ursula says everything is fine. Is that how she sounds?,BOTH,mismatch
+R0009,What does the waiter promise Phoebe?,TEXT,fact_content
+R0010,What does the woman say she forgot at the subway?,TEXT,fact_what
+R0011,What does the woman shout?,BOTH,time_aligned
+R0012,What day is the game Monica mentions?,TEXT,fact_when
+R0013,"Where does Rachel say she is going, and how does she feel about it?",BOTH,fact_plus_tone
+R0014,What does Janice want to cook for the dinner?,TEXT,fact_what
+R0015,What does the woman say her job is?,TEXT,fact_content
+R0016,Is Joey serious or joking?,AUDIO,sincerity
+R0017,What is the woman's mood in this clip?,AUDIO,emotion
+R0018,Does Ursula's voice crack at any point?,AUDIO,delivery
+R0019,Does anyone else react audibly while the interviewer is speaking?,AUDIO,background
+R0020,Does Emily hesitate before answering?,AUDIO,delivery
+R0021,Is Chandler out of breath?,AUDIO,anti_keyword
+R0022,How many pages does the man say the report has?,TEXT,fact_number
+R0023,"Is the speaker talking to a child or an adult, judging by the way they speak?",AUDIO,anti_keyword
+R0024,Does Joey's tone match the words he uses?,BOTH,mismatch
+R0025,Does Emily raise her voice at the end?,AUDIO,delivery
+R0026,Is the waiter shouting or speaking quietly?,AUDIO,delivery
+R0027,Which city does the woman say she is moving to?,TEXT,fact_where
+R0028,Why does Ursula want to leave the airport early?,TEXT,fact_reason
+R0029,Where is Ursula going after the concert?,TEXT,fact_where
+R0030,What emotion does Paul say he felt at the dinner?,TEXT,anti_keyword
+R0031,What does Gunther say he was sad to hear?,TEXT,anti_keyword
+R0032,Who does the man say was crying at the party?,TEXT,anti_keyword
+R0033,Is Rachel trying not to laugh?,AUDIO,anti_keyword
+R0034,Does Monica's voice crack at any point?,AUDIO,delivery
+R0035,What does the waiter really mean when she calls the song lovely?,BOTH,sarcasm_meaning
+R0036,How much did Mrs. Geller pay for the ring?,TEXT,fact_number
+R0037,Does anyone else react audibly while Paul is speaking?,AUDIO,background
+R0038,"What does the speaker offer Chandler, and is the offer sincere?",BOTH,fact_plus_tone
+R0039,"Which emotion best describes Monica: frustrated, relieved, or calm?",AUDIO,emotion
+R0040,What does the waiter say just before he pauses?,BOTH,time_aligned
+R0041,Name the date Monica talks about and describe her attitude toward it.,BOTH,fact_plus_tone
+R0042,Is there background noise while Mike talks?,AUDIO,background
+R0043,"What does the man want Joey to do, and how urgent does he sound?",BOTH,fact_plus_tone
+R0044,How many people does the receptionist say are coming to the concert?,TEXT,fact_number
+R0045,Is Phoebe being sincere?,AUDIO,sincerity
+R0046,How much did Mike pay for the scarf?,TEXT,fact_number
+R0047,What does the nurse say he forgot at Monica's apartment?,TEXT,fact_what
+R0048,"What does Ursula want Emily to do, and how urgent does she sound?",BOTH,fact_plus_tone
+R0049,Is Janice about to cry?,AUDIO,anti_keyword
+R0050,Why does the receptionist say he was late?,TEXT,fact_reason
+R0051,Does Phoebe's voice crack at any point?,AUDIO,delivery
+R0052,"What does Mrs. Geller want Monica to do, and how urgent does she sound?",BOTH,fact_plus_tone
+R0053,How many people does Phoebe say are coming to the baby shower?,TEXT,fact_number
+R0054,Are there long silences in the middle of Chandler's line?,AUDIO,delivery
+R0055,Where does Ursula want to have the reception?,TEXT,fact_where
+R0056,Is Phoebe exaggerating for effect?,AUDIO,anti_keyword
+R0057,"What does the speaker want Phoebe to do, and how urgent does she sound?",BOTH,fact_plus_tone
+R0058,What does the waiter say about her singing voice?,TEXT,anti_keyword
+R0059,Who does Richard say borrowed his phone?,TEXT,fact_who
+R0060,Mike says he doesn't care about the new job. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0061,What is Carol being sarcastic about?,BOTH,sarcasm_meaning
+R0062,Who is Mrs. Geller talking about when she mentions the vacation?,TEXT,fact_who
+R0063,Does Emily's voice match what she says about the apartment?,BOTH,sarcasm_meaning
+R0064,"Does Phoebe actually agree with Joey, despite what she says?",BOTH,sarcasm_meaning
+R0065,Does anyone else react audibly while the man is speaking?,AUDIO,background
+R0066,What does Joey shout?,BOTH,time_aligned
+R0067,Which city does Janice say she is moving to?,TEXT,fact_where
+R0068,"Which city does Emily mention, and is she homesick or excited?",BOTH,fact_plus_tone
+R0069,Is the receptionist shouting or speaking quietly?,AUDIO,delivery
+R0070,Does Janice's voice match what she says about the trip?,BOTH,sarcasm_meaning
+R0071,"What does Monica offer Phoebe, and is the offer sincere?",BOTH,fact_plus_tone
+R0072,What does Mr. Geller shout?,BOTH,time_aligned
+R0073,Is Richard serious or joking?,AUDIO,sincerity
+R0074,Why can't the nurse come to the concert?,TEXT,fact_reason
+R0075,Is Joey teasing Monica or actually annoyed?,AUDIO,sincerity
+R0076,What is Phoebe's mood in this clip?,AUDIO,emotion
+R0077,What does Monica order at the airport?,TEXT,fact_what
+R0078,Are there long silences in the middle of Mr. Geller's line?,AUDIO,delivery
+R0079,Is Janice being sincere?,AUDIO,sincerity
+R0080,Who does Rachel say borrowed her watch?,TEXT,fact_who
+R0081,What is the man being sarcastic about?,BOTH,sarcasm_meaning
+R0082,Who does Joey say has the most annoying laugh?,TEXT,anti_keyword
+R0083,Does Rachel sound excited or nervous?,AUDIO,emotion
+R0084,What is Joey being sarcastic about?,BOTH,sarcasm_meaning
+R0085,"Who does Monica mention, and is her tone happy or sad?",BOTH,fact_plus_tone
+R0086,What does Emily say just before she pauses?,BOTH,time_aligned
+R0087,"Who does Joey mention, and is his tone happy or sad?",BOTH,fact_plus_tone
+R0088,What job does Joey say he applied for?,TEXT,fact_what
+R0089,Joey says he doesn't care about the date. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0090,Which city does Phoebe say she is moving to?,TEXT,fact_where
+R0091,Is Emily's compliment genuine?,AUDIO,sincerity
+R0092,What does the doctor tell Ross to avoid?,TEXT,fact_content
+R0093,What time does the receptionist have to be at the gym?,TEXT,fact_when
+R0094,"What does the man insist about himself, and is that believable from his delivery?",BOTH,sarcasm_meaning
+R0095,What does Paul promise Emily?,TEXT,fact_content
+R0096,Where does Rachel say she left her sunglasses?,TEXT,fact_where
+R0097,Are the two speakers the same gender?,AUDIO,speaker_info
+R0098,How would you describe Chandler's tone?,AUDIO,emotion
+R0099,Are there long silences in the middle of Mike's line?,AUDIO,delivery
+R0100,What is Ross pretending to be okay with?,BOTH,anti_keyword
+R0101,When does Chandler say the wedding starts?,TEXT,fact_when
+R0102,Name the baby shower Janice talks about and describe her attitude toward it.,BOTH,fact_plus_tone
+R0103,What does Phoebe say Joey should do next?,TEXT,fact_content
+R0104,Is Phoebe pretending to be shocked?,AUDIO,sincerity
+R0105,How does Chandler feel while speaking?,AUDIO,emotion
+R0106,What does Paul suggest they do tonight?,TEXT,fact_content
+R0107,What does Richard want to cook for the trip?,TEXT,fact_what
+R0108,"What does Mike praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0109,Who is the interviewer talking about when he mentions the party?,TEXT,fact_who
+R0110,What does the receptionist say just before he pauses?,BOTH,time_aligned
+R0111,Is the man happy or upset right now?,AUDIO,emotion
+R0112,What does Rachel pretend to be excited about?,BOTH,anti_keyword
+R0113,How would you describe Paul's tone?,AUDIO,emotion
+R0114,"What news does Carol share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0115,What does the man offer to bring to the wedding?,TEXT,fact_what
+R0116,What does Mrs. Geller say right after the audience laughs?,BOTH,time_aligned
+R0117,Does Chandler sound as great as his words suggest?,BOTH,mismatch
+R0118,"What does Mr. Geller say about the promotion, and what does his voice reveal about how he really feels?",BOTH,fact_plus_tone
+R0119,What does Paul shout?,BOTH,time_aligned
+R0120,How would you describe Monica's tone?,AUDIO,emotion
+R0121,Is Janice slightly frustrated or extremely frustrated?,AUDIO,intensity
+R0122,Is Rachel whispering?,AUDIO,delivery
+R0123,Is Joey shouting or speaking quietly?,AUDIO,delivery
+R0124,What does Ross promise Joey?,TEXT,fact_content
+R0125,"How should Monica's ""I'm happy for you"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0126,"What news does the woman share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0127,Is the waiter happy or upset right now?,AUDIO,emotion
+R0128,What reason does the man give for quitting his job?,TEXT,fact_reason
+R0129,Are there long silences in the middle of the woman's line?,AUDIO,delivery
+R0130,"What does Ross praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0131,Does Mike hesitate before answering?,AUDIO,delivery
+R0132,Is the receptionist serious or joking?,AUDIO,sincerity
+R0133,How does Richard feel while speaking?,AUDIO,emotion
+R0134,Is Chandler's apology about the apartment sincere?,BOTH,anti_keyword
+R0135,How strongly does Janice react?,AUDIO,intensity
+R0136,How strongly does Emily react?,AUDIO,intensity
+R0137,Why can't the nurse come to the trip?,TEXT,fact_reason
+R0138,"What does Mike order, and does he seem happy with it?",BOTH,fact_plus_tone
+R0139,"On a scale from calm to furious, where is Emily?",AUDIO,intensity
+R0140,How strongly does Ursula react?,AUDIO,intensity
+R0141,How much did the nurse pay for the umbrella?,TEXT,fact_number
+R0142,Does Richard sound surprised or bored?,AUDIO,emotion
+R0143,What is Mike really trying to say to Monica?,BOTH,anti_keyword
+R0144,Is the nurse shouting or speaking quietly?,AUDIO,delivery
+R0145,Are there long silences in the middle of the man's line?,AUDIO,delivery
+R0146,"On a scale from calm to furious, where is Ursula?",AUDIO,intensity
+R0147,What does Rachel say Phoebe lost?,TEXT,fact_what
+R0148,Which part of the sentence does Paul say quietly?,BOTH,time_aligned
+R0149,How many rooms does Ross say he has?,TEXT,fact_number
+R0150,What apartment number does Joey mention?,TEXT,fact_number
+R0151,Which of the doctor's statements is sarcastic?,BOTH,sarcasm_meaning
+R0152,Does Paul speak quickly or slowly?,AUDIO,delivery
+R0153,Does Chandler's voice crack at any point?,AUDIO,delivery
+R0154,What does Rachel say her job is?,TEXT,fact_content
+R0155,What is Phoebe being sarcastic about?,BOTH,sarcasm_meaning
+R0156,"How long ago did Emily meet Phoebe, according to her?",TEXT,fact_when
+R0157,"Which emotion best describes Monica: scared, excited, or neutral?",AUDIO,emotion
+R0158,What does Mrs. Geller say she hates about the airport?,TEXT,anti_keyword
+R0159,What is Mike being sarcastic about?,BOTH,sarcasm_meaning
+R0160,What apartment number does Emily mention?,TEXT,fact_number
+R0161,Does the man's voice tremble?,AUDIO,delivery
+R0162,What is Mrs. Geller being sarcastic about?,BOTH,sarcasm_meaning
+R0163,Which speaker interrupts the other?,AUDIO,speaker_info
+R0164,How many people does Richard say are coming to the game?,TEXT,fact_number
+R0165,What floor does the receptionist say the office is on?,TEXT,fact_number
+R0166,Which part of the sentence does the receptionist say quietly?,BOTH,time_aligned
+R0167,Was the question asked kindly?,AUDIO,anti_keyword
+R0168,Which city does the waiter say he is moving to?,TEXT,fact_where
+R0169,Which feeling comes through when the man speaks?,AUDIO,emotion
+R0170,Is Gunther out of breath?,AUDIO,anti_keyword
+R0171,Is there background noise while Gunther talks?,AUDIO,background
+R0172,Why does Gunther want to leave the coffee house early?,TEXT,fact_reason
+R0173,Who does Paul say he ran into at the airport?,TEXT,fact_who
+R0174,Does Mrs. Geller's voice tremble?,AUDIO,delivery
+R0175,How would you describe the man's tone?,AUDIO,emotion
+R0176,What words does Paul say while laughing?,BOTH,time_aligned
+R0177,What does Mike tell Emily about the audition?,TEXT,fact_content
+R0178,"What does Gunther insist about himself, and is that believable from his delivery?",BOTH,sarcasm_meaning
+R0179,How would you describe Phoebe's tone?,AUDIO,emotion
+R0180,Is Mrs. Geller whispering?,AUDIO,delivery
+R0181,What does the man say right after the audience laughs?,BOTH,time_aligned
+R0182,Does Carol sigh before speaking?,AUDIO,delivery
+R0183,Who is the nurse mocking?,BOTH,anti_keyword
+R0184,Name the dinner Mrs. Geller talks about and describe her attitude toward it.,BOTH,fact_plus_tone
+R0185,Does Rachel's voice get higher as she goes on?,AUDIO,delivery
+R0186,What does the doctor really mean when he calls the speech nice?,BOTH,sarcasm_meaning
+R0187,Is there a mismatch between what Mrs. Geller says and how she says it?,BOTH,mismatch
+R0188,Did Phoebe mean it?,AUDIO,sincerity
+R0189,"Does Gunther actually agree with Janice, despite what he says?",BOTH,sarcasm_meaning
+R0190,"How long ago did the woman meet Emily, according to her?",TEXT,fact_when
+R0191,Which feeling comes through when the waiter speaks?,AUDIO,emotion
+R0192,What is Mr. Geller's mood in this clip?,AUDIO,emotion
+R0193,How does the man feel while speaking?,AUDIO,emotion
+R0194,Why does Janice say she was late?,TEXT,fact_reason
+R0195,Chandler says he doesn't care about the move. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0196,Did the nurse mean it?,AUDIO,sincerity
+R0197,Is Phoebe in a good mood?,AUDIO,anti_keyword
+R0198,Is Chandler holding back laughter?,AUDIO,anti_keyword
+R0199,What gift did Carol get for Chandler?,TEXT,fact_what
+R0200,Is Mr. Geller's compliment genuine?,AUDIO,sincerity
+R0201,Was Monica serious?,AUDIO,anti_keyword
+R0202,"What does Chandler ask Mike for, and does he sound sincere or sarcastic?",BOTH,fact_plus_tone
+R0203,What is Monica pretending to be okay with?,BOTH,anti_keyword
+R0204,Does Janice sound surprised or bored?,AUDIO,emotion
+R0205,Why does Ross want to leave the coffee house early?,TEXT,fact_reason
+R0206,Which item does Ross ask Phoebe to return?,TEXT,fact_what
+R0207,"Which day does the man mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0208,Does Richard speak quickly or slowly?,AUDIO,delivery
+R0209,Does Monica sound as great as her words suggest?,BOTH,mismatch
+R0210,What reason does Phoebe give for quitting her job?,TEXT,fact_reason
+R0211,Does Gunther sound as nice as his words suggest?,BOTH,mismatch
+R0212,Does the audience laugh while Rachel is talking?,AUDIO,background
+R0213,"Who speaks louder, the first speaker or the second?",AUDIO,speaker_info
+R0214,"Which day does Joey mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0215,What words does Rachel say while laughing?,BOTH,time_aligned
+R0216,Was Mrs. Geller being sarcastic?,AUDIO,sincerity
+R0217,Does Richard hesitate before answering?,AUDIO,delivery
+R0218,Does Paul's tone match the words he uses?,BOTH,mismatch
+R0219,Does the receptionist's voice tremble?,AUDIO,delivery
+R0220,What day is the trip Gunther mentions?,TEXT,fact_when
+R0221,Which feeling comes through when Phoebe speaks?,AUDIO,emotion
+R0222,"What does Joey order, and does he seem happy with it?",BOTH,fact_plus_tone
+R0223,Does the doctor's tone match the words she uses?,BOTH,mismatch
+R0224,Which item does Joey ask Monica to return?,TEXT,fact_what
+R0225,Is there a mismatch between what Mr. Geller says and how he says it?,BOTH,mismatch
+R0226,What does Richard say his job is?,TEXT,fact_content
+R0227,What does Mr. Geller say his job is?,TEXT,fact_content
+R0228,What does the woman offer to bring to the reception?,TEXT,fact_what
+R0229,Does Ross sound relieved?,AUDIO,emotion
+R0230,Is Carol whispering?,AUDIO,delivery
+R0231,Does Richard's voice tremble?,AUDIO,delivery
+R0232,What does Mr. Geller say made Gunther laugh?,TEXT,anti_keyword
+R0233,What does Ross say he was shouting about earlier?,TEXT,anti_keyword
+R0234,What does Gunther want to cook for the dinner?,TEXT,fact_what
+R0235,How strongly does Joey react?,AUDIO,intensity
+R0236,Does the doctor raise his voice at the end?,AUDIO,delivery
+R0237,Who is the waiter mocking?,BOTH,anti_keyword
+R0238,Gunther says he doesn't care about the vacation. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0239,How much did the interviewer pay for the keys?,TEXT,fact_number
+R0240,Is there a mismatch between what Chandler says and how he says it?,BOTH,mismatch
+R0241,What does Mike say he loves about Monica?,TEXT,anti_keyword
+R0242,Is the man's compliment genuine?,AUDIO,sincerity
+R0243,Is Chandler slightly happy or extremely happy?,AUDIO,intensity
+R0244,Which part of the sentence does Mrs. Geller say quietly?,BOTH,time_aligned
+R0245,"Where does Richard say he is going, and how does he feel about it?",BOTH,fact_plus_tone
+R0246,Is there a mismatch between what the woman says and how she says it?,BOTH,mismatch
+R0247,Is Joey actually thanking Ross?,BOTH,anti_keyword
+R0248,What does the woman pretend to find funny?,BOTH,anti_keyword
+R0249,Is Carol teasing Joey or actually annoyed?,AUDIO,sincerity
+R0250,Where does Richard say he left his umbrella?,TEXT,fact_where
+R0251,"What does Joey ask Janice for, and does he sound surprised or bored?",BOTH,fact_plus_tone
+R0252,Is Paul teasing Mike or actually annoyed?,AUDIO,sincerity
+R0253,What job does Emily say she applied for?,TEXT,fact_what
+R0254,Is the receptionist being sincere?,AUDIO,sincerity
+R0255,Does Mike raise his voice at the end?,AUDIO,delivery
+R0256,What does Chandler say Phoebe lost?,TEXT,fact_what
+R0257,Is there background noise while Carol talks?,AUDIO,background
+R0258,"Does the waiter actually agree with Monica, despite what she says?",BOTH,sarcasm_meaning
+R0259,"Does Monica actually agree with Ross, despite what she says?",BOTH,sarcasm_meaning
+R0260,"What does the man want Phoebe to do, and how urgent does he sound?",BOTH,fact_plus_tone
+R0261,"Joey agrees to the plan, but how willing is he really?",BOTH,mismatch
+R0262,"Does Ross actually agree with Rachel, despite what he says?",BOTH,sarcasm_meaning
+R0263,Is Joey's compliment genuine?,AUDIO,sincerity
+R0264,Is Paul serious or joking?,AUDIO,sincerity
+R0265,Name the meeting Mike talks about and describe his attitude toward it.,BOTH,fact_plus_tone
+R0266,Which friend is Joey annoyed with?,BOTH,anti_keyword
+R0267,"What does Rachel say about the trip, and what does her voice reveal about how she really feels?",BOTH,fact_plus_tone
+R0268,Is there laughter in the background?,AUDIO,background
+R0269,Rachel says she is over Ross. Does her voice agree?,BOTH,mismatch
+R0270,Is there background noise while the receptionist talks?,AUDIO,background
+R0271,Where does Phoebe say Gunther grew up?,TEXT,fact_where
+R0272,Does Carol hesitate before answering?,AUDIO,delivery
+R0273,Did Phoebe mean the compliment she gave Monica?,BOTH,anti_keyword
+R0274,What does the nurse say Joey lost?,TEXT,fact_what
+R0275,What nickname does Mike use for Rachel?,TEXT,fact_what
+R0276,What reason does Mrs. Geller give for quitting her job?,TEXT,fact_reason
+R0277,"Which emotion best describes Ross: surprised, annoyed, or amused?",AUDIO,emotion
+R0278,Is Monica teasing Gunther or actually annoyed?,AUDIO,sincerity
+R0279,Does Carol sound scared or relaxed?,AUDIO,emotion
+R0280,Is Gunther enjoying this?,AUDIO,anti_keyword
+R0281,Which part of the sentence does Ursula say quietly?,BOTH,time_aligned
+R0282,Where does Phoebe say Emily grew up?,TEXT,fact_where
+R0283,What day is the interview the doctor mentions?,TEXT,fact_when
+R0284,Is the speaker male or female?,AUDIO,speaker_info
+R0285,What does Janice want to cook for the baby shower?,TEXT,fact_what
+R0286,"What does Ursula offer Ross, and is the offer sincere?",BOTH,fact_plus_tone
+R0287,"What does the nurse ask Emily for, and does he sound excited or nervous?",BOTH,fact_plus_tone
+R0288,Which feeling comes through when Rachel speaks?,AUDIO,emotion
+R0289,Does Rachel sound sincere or sarcastic?,AUDIO,emotion
+R0290,Who does the interviewer say borrowed his tickets?,TEXT,fact_who
+R0291,Which city does Rachel say she is moving to?,TEXT,fact_where
+R0292,Does Gunther sound annoyed or amused?,AUDIO,emotion
+R0293,"What news does Phoebe share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0294,"What does Monica say she is fine with, and is she?",BOTH,anti_keyword
+R0295,What reason does Carol give for quitting her job?,TEXT,fact_reason
+R0296,Which word does Emily emphasize the most?,BOTH,time_aligned
+R0297,What does Joey say he forgot at the mall?,TEXT,fact_what
+R0298,"What does Emily order, and does she seem happy with it?",BOTH,fact_plus_tone
+R0299,Does Joey sigh before speaking?,AUDIO,delivery
+R0300,Does the audience laugh while Ross is talking?,AUDIO,background
+R0301,"What does Mrs. Geller insist about herself, and is that believable from her delivery?",BOTH,sarcasm_meaning
+R0302,What does the receptionist shout?,BOTH,time_aligned
+R0303,Did the doctor mean it?,AUDIO,sincerity
+R0304,Who does Richard say borrowed his scarf?,TEXT,fact_who
+R0305,"Does Mrs. Geller actually agree with Rachel, despite what she says?",BOTH,sarcasm_meaning
+R0306,Name the baby shower the woman talks about and describe her attitude toward it.,BOTH,fact_plus_tone
+R0307,Which item does the doctor ask Emily to return?,TEXT,fact_what
+R0308,When does Mr. Geller say the wedding starts?,TEXT,fact_when
+R0309,How old does Paul say Emily is?,TEXT,fact_number
+R0310,Does Rachel hesitate before answering?,AUDIO,delivery
+R0311,What does Joey order at the museum?,TEXT,fact_what
+R0312,Does Monica's voice match what she says about the move?,BOTH,sarcasm_meaning
+R0313,Does Mrs. Geller sound as brilliant as her words suggest?,BOTH,mismatch
+R0314,What words does Mr. Geller say while laughing?,BOTH,time_aligned
+R0315,Does Ross's voice match what he says about the breakup?,BOTH,sarcasm_meaning
+R0316,Is Paul whispering?,AUDIO,delivery
+R0317,Who is Chandler talking about when he mentions the breakup?,TEXT,fact_who
+R0318,What words does Chandler say while laughing?,BOTH,time_aligned
+R0319,Is Chandler mumbling?,AUDIO,delivery
+R0320,Who is Gunther talking about when he mentions the promotion?,TEXT,fact_who
+R0321,What is Chandler really complaining about?,BOTH,anti_keyword
+R0322,Which word does Gunther emphasize the most?,BOTH,time_aligned
+R0323,"What does Richard ask Emily for, and does he sound happy or sad?",BOTH,fact_plus_tone
+R0324,Was Chandler being sarcastic?,AUDIO,sincerity
+R0325,"Which emotion best describes Mrs. Geller: angry, sad, or calm?",AUDIO,emotion
+R0326,"What does Rachel insist about herself, and is that believable from her delivery?",BOTH,sarcasm_meaning
+R0327,Does the nurse's tone match the words he uses?,BOTH,mismatch
+R0328,Who does Carol say borrowed her ring?,TEXT,fact_who
+R0329,"What does Richard praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0330,Which feeling comes through when Richard speaks?,AUDIO,emotion
+R0331,Is Joey nervous?,AUDIO,anti_keyword
+R0332,What gift did Paul get for Chandler?,TEXT,fact_what
+R0333,What does Emily really mean when she calls the painting brilliant?,BOTH,sarcasm_meaning
+R0334,When does the nurse say the game starts?,TEXT,fact_when
+R0335,Why does Mike say his voice is hoarse?,TEXT,anti_keyword
+R0336,What does Mrs. Geller offer to bring to the reception?,TEXT,fact_what
+R0337,Does the interviewer's anger build up or stay the same?,AUDIO,intensity
+R0338,Is there music playing in the background?,AUDIO,background
+R0339,Who does Phoebe say she ran into at the office?,TEXT,fact_who
+R0340,"What does Monica order, and does she seem happy with it?",BOTH,fact_plus_tone
+R0341,What question does Paul ask Janice?,TEXT,fact_content
+R0342,Where does Emily say Joey grew up?,TEXT,fact_where
+R0343,What does the louder speaker say?,BOTH,time_aligned
+R0344,Is the woman serious or joking?,AUDIO,sincerity
+R0345,Is anyone clapping during the clip?,AUDIO,background
+R0346,"How much does Ross say he paid, and does he regret it?",BOTH,fact_plus_tone
+R0347,Does Mr. Geller sigh before speaking?,AUDIO,delivery
+R0348,What does the man offer to bring to the reception?,TEXT,fact_what
+R0349,Did Janice mean it?,AUDIO,sincerity
+R0350,What does Carol promise Mike?,TEXT,fact_content
+R0351,What does Emily say right after the audience laughs?,BOTH,time_aligned
+R0352,"What does Richard order, and does he seem happy with it?",BOTH,fact_plus_tone
+R0353,Who does Joey say he ran into at Monica's apartment?,TEXT,fact_who
+R0354,Who does Paul say is coming to the baby shower?,TEXT,fact_who
+R0355,Does anyone else react audibly while Mike is speaking?,AUDIO,background
+R0356,What does Rachel order at the office?,TEXT,fact_what
+R0357,Which month does Emily say the wedding is in?,TEXT,fact_when
+R0358,Does the audience laugh while Ursula is talking?,AUDIO,background
+R0359,Which part of the sentence does Richard say quietly?,BOTH,time_aligned
+R0360,Is Chandler losing patience?,AUDIO,anti_keyword
+R0361,"Is the scene indoors and quiet, or loud and crowded?",AUDIO,background
+R0362,Is Richard slightly happy or extremely happy?,AUDIO,intensity
+R0363,Is Chandler shouting or speaking quietly?,AUDIO,delivery
+R0364,"What does the waiter want Gunther to do, and how urgent does he sound?",BOTH,fact_plus_tone
+R0365,What does the waiter say he forgot at the hotel?,TEXT,fact_what
+R0366,What does Richard shout?,BOTH,time_aligned
+R0367,Is Mr. Geller actually thanking Phoebe?,BOTH,anti_keyword
+R0368,Is the woman happy or upset right now?,AUDIO,emotion
+R0369,How many dates does Mike say he has?,TEXT,fact_number
+R0370,"What feeling does the speaker's laugh convey: joy, nervousness, or disbelief?",AUDIO,emotion
+R0371,Is the man actually okay?,AUDIO,anti_keyword
+R0372,What does Chandler order at the hotel?,TEXT,fact_what
+R0373,How does Rachel feel while speaking?,AUDIO,emotion
+R0374,Which word does the speaker emphasize the most?,BOTH,time_aligned
+R0375,Is Mrs. Geller enjoying this?,AUDIO,anti_keyword
+R0376,Does Gunther speak quickly or slowly?,AUDIO,delivery
+R0377,Is there a mismatch between what Richard says and how he says it?,BOTH,mismatch
+R0378,Why does the speaker want to leave the gym early?,TEXT,fact_reason
+R0379,Is the man teasing Joey or actually annoyed?,AUDIO,sincerity
+R0380,What is Paul's mood in this clip?,AUDIO,emotion
+R0381,Who is the nurse talking about when he mentions the baby?,TEXT,fact_who
+R0382,Is Emily whispering?,AUDIO,delivery
+R0383,What does the man say he is allergic to?,TEXT,fact_what
+R0384,Which suggestion does Chandler reject without saying no?,BOTH,anti_keyword
+R0385,Does Carol sound as great as her words suggest?,BOTH,mismatch
+R0386,What does Janice say right after the audience laughs?,BOTH,time_aligned
+R0387,What does Chandler mean by 'could this BE any better'?,BOTH,sarcasm_meaning
+R0388,What does Chandler say right after the audience laughs?,BOTH,time_aligned
+R0389,Which word does Joey emphasize the most?,BOTH,time_aligned
+R0390,What does Ursula promise Gunther?,TEXT,fact_content
+R0391,What is Gunther being sarcastic about?,BOTH,sarcasm_meaning
+R0392,What does the speaker tell Emily about the date?,TEXT,fact_content
+R0393,Does Mr. Geller's tone match the words he uses?,BOTH,mismatch
+R0394,Did Richard mean it?,AUDIO,sincerity
+R0395,"What does Paul want Emily to do, and how urgent does he sound?",BOTH,fact_plus_tone
+R0396,Is Paul teasing Monica or actually annoyed?,AUDIO,sincerity
+R0397,What does Phoebe say makes her scared?,TEXT,anti_keyword
+R0398,Which feeling comes through when Gunther speaks?,AUDIO,emotion
+R0399,Is there background noise while Mrs. Geller talks?,AUDIO,background
+R0400,Is the waiter being sincere?,AUDIO,sincerity
+R0401,Where is the nurse going after the party?,TEXT,fact_where
+R0402,"What does Richard ask Mike for, and does he sound angry or calm?",BOTH,fact_plus_tone
+R0403,Who is Joey talking about when he mentions the breakup?,TEXT,fact_who
+R0404,Who does Rachel say got her the job?,TEXT,fact_who
+R0405,Does the audience laugh while Paul is talking?,AUDIO,background
+R0406,How does the nurse feel while speaking?,AUDIO,emotion
+R0407,What apartment number does Carol mention?,TEXT,fact_number
+R0408,Does Mike's voice tremble?,AUDIO,delivery
+R0409,What is Ross's mood in this clip?,AUDIO,emotion
+R0410,How strongly does the woman react?,AUDIO,intensity
+R0411,Is the speaker comfortable with the question?,AUDIO,anti_keyword
+R0412,"How should Mrs. Geller's ""thanks"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0413,Phoebe says everything is fine. Is that how she sounds?,BOTH,mismatch
+R0414,Does the audience laugh while the waiter is talking?,AUDIO,background
+R0415,What does Ross say just before he pauses?,BOTH,time_aligned
+R0416,"Does Janice actually agree with Rachel, despite what she says?",BOTH,sarcasm_meaning
+R0417,What does Mr. Geller order at the mall?,TEXT,fact_what
+R0418,"What does Chandler order, and does he seem happy with it?",BOTH,fact_plus_tone
+R0419,How many cats does Gunther say he has?,TEXT,fact_number
+R0420,Does Ursula's tone match the words she uses?,BOTH,mismatch
+R0421,What nickname does Mrs. Geller use for Janice?,TEXT,fact_what
+R0422,"What does the doctor want Chandler to do, and how urgent does he sound?",BOTH,fact_plus_tone
+R0423,"How should Ross's ""great"" be interpreted, given how he says it?",BOTH,sarcasm_meaning
+R0424,What does Carol want to cook for the date?,TEXT,fact_what
+R0425,How would you describe Janice's tone?,AUDIO,emotion
+R0426,What sound does Paul say the wallet made?,TEXT,anti_keyword
+R0427,What does Rachel say right after the audience laughs?,BOTH,time_aligned
+R0428,Is the woman whispering?,AUDIO,delivery
+R0429,What time does Richard have to be at the hotel?,TEXT,fact_when
+R0430,Does Monica's voice match what she says about the audition?,BOTH,sarcasm_meaning
+R0431,Is Carol slightly embarrassed or extremely embarrassed?,AUDIO,intensity
+R0432,Is the interviewer happy or upset right now?,AUDIO,emotion
+R0433,Is Gunther serious or joking?,AUDIO,sincerity
+R0434,Is there background noise while the speaker talks?,AUDIO,background
+R0435,"Who does the man mention, and is his tone annoyed or amused?",BOTH,fact_plus_tone
+R0436,"Does Joey actually agree with Mike, despite what he says?",BOTH,sarcasm_meaning
+R0437,"What gift did Monica receive, and was she actually pleased with it?",BOTH,fact_plus_tone
+R0438,"What does the receptionist praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0439,What does Carol offer to bring to the wedding?,TEXT,fact_what
+R0440,Rachel says she doesn't care about the date. Does she sound like she means it?,BOTH,sarcasm_meaning
+R0441,What does Rachel say she whispered to the bride?,TEXT,anti_keyword
+R0442,Is Monica comfortable with the question?,AUDIO,anti_keyword
+R0443,What does the waiter want to cook for the wedding?,TEXT,fact_what
+R0444,Is Chandler in a hurry?,AUDIO,anti_keyword
+R0445,Where is Phoebe going after the birthday party?,TEXT,fact_where
+R0446,How many tickets does Paul say he has?,TEXT,fact_number
+R0447,What question does Mrs. Geller ask Chandler?,TEXT,fact_content
+R0448,"Which emotion best describes the nurse: happy, nervous, or bored?",AUDIO,emotion
+R0449,What does Carol say Ross lost?,TEXT,fact_what
+R0450,Which of Mrs. Geller's statements is sarcastic?,BOTH,sarcasm_meaning
+R0451,What question does Paul ask Chandler?,TEXT,fact_content
+R0452,Does Monica speak through clenched teeth?,AUDIO,delivery
+R0453,Does the nurse's anger build up or stay the same?,AUDIO,intensity
+R0454,Is Carol shouting or speaking quietly?,AUDIO,delivery
+R0455,Does Joey believe what he is being told?,AUDIO,anti_keyword
+R0456,Janice says everything is fine. Is that how she sounds?,BOTH,mismatch
+R0457,How does Monica feel while speaking?,AUDIO,emotion
+R0458,What does Carol offer to bring to the baby shower?,TEXT,fact_what
+R0459,Did the waiter take it well?,AUDIO,anti_keyword
+R0460,Where is the man going after the audition?,TEXT,fact_where
+R0461,"What news does the speaker share, and is he excited or worried about it?",BOTH,fact_plus_tone
+R0462,Is Mike about to cry?,AUDIO,anti_keyword
+R0463,Does Rachel's tone match the words she uses?,BOTH,mismatch
+R0464,How much did the waiter pay for the sunglasses?,TEXT,fact_number
+R0465,Is Paul being sincere?,AUDIO,sincerity
+R0466,Is the apology heartfelt?,AUDIO,sincerity
+R0467,What does the woman say she hates about the office?,TEXT,anti_keyword
+R0468,What nickname does Mr. Geller use for Gunther?,TEXT,fact_what
+R0469,"What does Ross say about the move, and what does his voice reveal about how he really feels?",BOTH,fact_plus_tone
+R0470,What apartment number does Phoebe mention?,TEXT,fact_number
+R0471,Who does Joey say he ran into at the subway?,TEXT,fact_who
+R0472,Was Monica being sarcastic?,AUDIO,sincerity
+R0473,Why can't Ross come to the wedding?,TEXT,fact_reason
+R0474,Does the speaker sound young or old?,AUDIO,speaker_info
+R0475,Does the man hesitate before answering?,AUDIO,delivery
+R0476,What does Ursula say Joey lost?,TEXT,fact_what
+R0477,What time does Ursula have to be at the coffee house?,TEXT,fact_when
+R0478,Who is Joey pretending not to care about?,BOTH,anti_keyword
+R0479,Does Mrs. Geller's voice crack at any point?,AUDIO,delivery
+R0480,Is the interviewer whispering?,AUDIO,delivery
+R0481,Does Janice's tone match the words she uses?,BOTH,mismatch
+R0482,Carol says she doesn't care about the baby. Does she sound like she means it?,BOTH,sarcasm_meaning
+R0483,Does Mike's anger build up or stay the same?,AUDIO,intensity
+R0484,Is Ross more hurt or more embarrassed?,AUDIO,anti_keyword
+R0485,Is the doctor's compliment genuine?,AUDIO,sincerity
+R0486,"How should Mrs. Geller's ""great"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0487,How many people does Joey say are coming to the baby shower?,TEXT,fact_number
+R0488,What does Joey promise Gunther?,TEXT,fact_content
+R0489,"Which emotion best describes Carol: frustrated, relieved, or calm?",AUDIO,emotion
+R0490,What is Paul being sarcastic about?,BOTH,sarcasm_meaning
+R0491,"Who does the speaker mention, and is her tone playful or irritated?",BOTH,fact_plus_tone
+R0492,Where is the doctor going after the party?,TEXT,fact_where
+R0493,"What does Janice want Gunther to do, and how urgent does she sound?",BOTH,fact_plus_tone
+R0494,"Which emotion best describes Janice: frustrated, relieved, or calm?",AUDIO,emotion
+R0495,Where does Rachel want to have the wedding?,TEXT,fact_where
+R0496,Who does Mr. Geller say is coming to the date?,TEXT,fact_who
+R0497,Does Chandler sound disgusted or pleased?,AUDIO,emotion
+R0498,Is Ross teasing Emily or actually annoyed?,AUDIO,sincerity
+R0499,What does Chandler say he is allergic to?,TEXT,fact_what
+R0500,Is Mike serious or joking?,AUDIO,sincerity
+R0501,What does Janice suggest they do tonight?,TEXT,fact_content
+R0502,Who does Mr. Geller say borrowed his scarf?,TEXT,fact_who
+R0503,Which city does Monica say she is moving to?,TEXT,fact_where
+R0504,What nickname does Ursula use for Emily?,TEXT,fact_what
+R0505,How strongly does Phoebe react?,AUDIO,intensity
+R0506,Where does Mrs. Geller want to have the party?,TEXT,fact_where
+R0507,Is Mrs. Geller slightly excited or extremely excited?,AUDIO,intensity
+R0508,What does Janice say Gunther should do next?,TEXT,fact_content
+R0509,Why does the waiter say he was late?,TEXT,fact_reason
+R0510,"Who does Joey mention, and is his tone angry or calm?",BOTH,fact_plus_tone
+R0511,Name the wedding Phoebe talks about and describe her attitude toward it.,BOTH,fact_plus_tone
+R0512,Does the receptionist speak quickly or slowly?,AUDIO,delivery
+R0513,Does the woman raise her voice at the end?,AUDIO,delivery
+R0514,"On a scale from calm to furious, where is Rachel?",AUDIO,intensity
+R0515,"Where does Janice say she is going, and how does she feel about it?",BOTH,fact_plus_tone
+R0516,Does Carol's voice crack at any point?,AUDIO,delivery
+R0517,Why does Paul say he is upset?,TEXT,anti_keyword
+R0518,What does Carol pretend to be excited about?,BOTH,anti_keyword
+R0519,Who does Ursula blame for ruining the trip?,TEXT,fact_who
+R0520,"What does Phoebe say about the baby, and what does her voice reveal about how she really feels?",BOTH,fact_plus_tone
+R0521,Why does Monica want to leave Monica's apartment early?,TEXT,fact_reason
+R0522,Where does the woman want to have the reception?,TEXT,fact_where
+R0523,Is Gunther whispering?,AUDIO,delivery
+R0524,How much did the man pay for the guitar?,TEXT,fact_number
+R0525,What is Paul really trying to say to Mike?,BOTH,anti_keyword
+R0526,What does the female speaker say in the clip?,BOTH,time_aligned
+R0527,Is there a mismatch between what Paul says and how he says it?,BOTH,mismatch
+R0528,What does the woman say Janice should do next?,TEXT,fact_content
+R0529,The doctor says everything is fine. Is that how she sounds?,BOTH,mismatch
+R0530,Which part of the sentence does the speaker say quietly?,BOTH,time_aligned
+R0531,"What does Rachel say about the vacation, and what does her voice reveal about how she really feels?",BOTH,fact_plus_tone
+R0532,How strongly does Rachel react?,AUDIO,intensity
+R0533,Where does Paul want to have the dinner?,TEXT,fact_where
+R0534,Who does Emily say she ran into at the subway?,TEXT,fact_who
+R0535,"How should Janice's ""congratulations"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0536,Does the nurse's tone match the words she uses?,BOTH,mismatch
+R0537,What does Richard say right after the audience laughs?,BOTH,time_aligned
+R0538,"What does Janice insist about herself, and is that believable from her delivery?",BOTH,sarcasm_meaning
+R0539,What does Phoebe say her grandmother used to tell her?,TEXT,fact_content
+R0540,Does Chandler sigh before speaking?,AUDIO,delivery
+R0541,When does Richard say the date starts?,TEXT,fact_when
+R0542,What question does Paul ask Joey?,TEXT,fact_content
+R0543,Did Joey mean it?,AUDIO,sincerity
+R0544,Can you hear a phone ringing in the clip?,AUDIO,background
+R0545,Who does the interviewer blame for ruining the date?,TEXT,fact_who
+R0546,What does Phoebe shout?,BOTH,time_aligned
+R0547,What time does Ursula have to be at the restaurant?,TEXT,fact_when
+R0548,Does the man speak quickly or slowly?,AUDIO,delivery
+R0549,"Which day does Gunther mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0550,Is Mike holding back laughter?,AUDIO,anti_keyword
+R0551,"Who does Ross mention, and is his tone happy or sad?",BOTH,fact_plus_tone
+R0552,Where does the man want to have the dinner?,TEXT,fact_where
+R0553,"What does the doctor insist about himself, and is that believable from his delivery?",BOTH,sarcasm_meaning
+R0554,"Who does Mr. Geller mention, and is his tone angry or calm?",BOTH,fact_plus_tone
+R0555,What does Ursula say she is allergic to?,TEXT,fact_what
+R0556,"According to Phoebe, what song made her cry?",TEXT,anti_keyword
+R0557,Does Monica's tone match the words she uses?,BOTH,mismatch
+R0558,Which item does Gunther ask Rachel to return?,TEXT,fact_what
+R0559,Is there background noise while Paul talks?,AUDIO,background
+R0560,"What does the woman praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0561,"What does Phoebe ask Mike for, and does she sound sincere or sarcastic?",BOTH,fact_plus_tone
+R0562,What apartment number does Chandler mention?,TEXT,fact_number
+R0563,Is Janice shouting or speaking quietly?,AUDIO,delivery
+R0564,Where does Carol say she left her notebook?,TEXT,fact_where
+R0565,Does Paul hesitate before answering?,AUDIO,delivery
+R0566,What does the waiter tell Gunther about the audition?,TEXT,fact_content
+R0567,"How should Carol's ""that's nice"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0568,What does Janice really mean when she calls the poem wonderful?,BOTH,sarcasm_meaning
+R0569,What is Chandler being sarcastic about?,BOTH,sarcasm_meaning
+R0570,Which part of the sentence does Janice say quietly?,BOTH,time_aligned
+R0571,What does the doctor order at the subway?,TEXT,fact_what
+R0572,Does Phoebe speak quickly or slowly?,AUDIO,delivery
+R0573,"Does Mrs. Geller actually agree with Joey, despite what she says?",BOTH,sarcasm_meaning
+R0574,Who does the waiter blame for ruining the birthday party?,TEXT,fact_who
+R0575,"Which emotion best describes Janice: surprised, annoyed, or amused?",AUDIO,emotion
+R0576,What does Ross say dinosaurs ate?,TEXT,fact_what
+R0577,Why can't Carol come to the trip?,TEXT,fact_reason
+R0578,When does Phoebe say the trip starts?,TEXT,fact_when
+R0579,Name the audition Janice talks about and describe her attitude toward it.,BOTH,fact_plus_tone
+R0580,Does Mike speak quickly or slowly?,AUDIO,delivery
+R0581,Does Richard sigh before speaking?,AUDIO,delivery
+R0582,Is Joey's apology about the audition sincere?,BOTH,anti_keyword
+R0583,What is the first thing the male speaker says?,BOTH,time_aligned
+R0584,What does Chandler say Monica should do next?,TEXT,fact_content
+R0585,What is the waiter being sarcastic about?,BOTH,sarcasm_meaning
+R0586,Is Mr. Geller teasing Janice or actually annoyed?,AUDIO,sincerity
+R0587,What does Joey say he is allergic to?,TEXT,fact_what
+R0588,How much did Janice pay for the wallet?,TEXT,fact_number
+R0589,"What does Mr. Geller offer Phoebe, and is the offer sincere?",BOTH,fact_plus_tone
+R0590,Is the man slightly nervous or extremely nervous?,AUDIO,intensity
+R0591,"How long ago did Mr. Geller meet Gunther, according to him?",TEXT,fact_when
+R0592,What apartment number does Ursula mention?,TEXT,fact_number
+R0593,Is the waiter's 'enjoy your meal' meant kindly?,BOTH,anti_keyword
+R0594,"What news does the receptionist share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0595,What does Mr. Geller say Rachel lost?,TEXT,fact_what
+R0596,What reason does Monica give for quitting her job?,TEXT,fact_reason
+R0597,What day is the wedding Mrs. Geller mentions?,TEXT,fact_when
+R0598,Where does Mrs. Geller say she left her phone?,TEXT,fact_where
+R0599,Was Phoebe being sarcastic?,AUDIO,sincerity
+R0600,Is Ross's 'good for you' a real congratulation?,BOTH,sarcasm_meaning
+R0601,Where does Ursula say Rachel grew up?,TEXT,fact_where
+R0602,What does the interviewer tell Rachel about the new job?,TEXT,fact_content
+R0603,What question does Carol ask Mike?,TEXT,fact_content
+R0604,What job does Mrs. Geller say she applied for?,TEXT,fact_what
+R0605,What does Rachel really mean when she calls the song wonderful?,BOTH,sarcasm_meaning
+R0606,What gift did Phoebe get for Gunther?,TEXT,fact_what
+R0607,What does Ross promise Chandler?,TEXT,fact_content
+R0608,Why can't Ross come to the date?,TEXT,fact_reason
+R0609,Which word does the waiter emphasize the most?,BOTH,time_aligned
+R0610,Joey says he doesn't care about the promotion. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0611,Is Mike nervous?,AUDIO,anti_keyword
+R0612,"What news does Ursula share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0613,Is Mike teasing Joey or actually annoyed?,AUDIO,sincerity
+R0614,Does the speaker hesitate before answering?,AUDIO,delivery
+R0615,Does the interviewer speak quickly or slowly?,AUDIO,delivery
+R0616,"How should Phoebe's ""perfect"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0617,Does the woman sigh before speaking?,AUDIO,delivery
+R0618,Does anyone else react audibly while the waiter is speaking?,AUDIO,background
+R0619,Name the interview the interviewer talks about and describe his attitude toward it.,BOTH,fact_plus_tone
+R0620,How many sisters does the waiter say she has?,TEXT,fact_number
+R0621,"What does Mike ask Phoebe for, and does he sound surprised or bored?",BOTH,fact_plus_tone
+R0622,Is Ross actually happy for Rachel?,BOTH,anti_keyword
+R0623,Who does the speaker say she is angry at?,TEXT,anti_keyword
+R0624,How does Paul feel while speaking?,AUDIO,emotion
+R0625,"What news does Mrs. Geller share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0626,What excuse does Chandler give for missing the game?,TEXT,fact_content
+R0627,Are there long silences in the middle of Carol's line?,AUDIO,delivery
+R0628,Is the interviewer's compliment genuine?,AUDIO,sincerity
+R0629,"Which day does Chandler mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0630,Is Mike shouting or speaking quietly?,AUDIO,delivery
+R0631,Who does Janice say is coming to the wedding?,TEXT,fact_who
+R0632,"What does Monica offer Mike, and is the offer sincere?",BOTH,fact_plus_tone
+R0633,Which item does Mike ask Emily to return?,TEXT,fact_what
+R0634,"Which day does Ross mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0635,Is Richard whispering?,AUDIO,delivery
+R0636,Which city does the doctor say he is moving to?,TEXT,fact_where
+R0637,Did Gunther actually like the painting he complimented?,BOTH,anti_keyword
+R0638,Is Phoebe's compliment genuine?,AUDIO,sincerity
+R0639,What does Gunther say he is allergic to?,TEXT,fact_what
+R0640,Does Richard sound scared or relaxed?,AUDIO,emotion
+R0641,Does the audience laugh while Mike is talking?,AUDIO,background
+R0642,Is Rachel teasing Phoebe or actually annoyed?,AUDIO,sincerity
+R0643,Does Ross's anger build up or stay the same?,AUDIO,intensity
+R0644,Where is Janice going after the party?,TEXT,fact_where
+R0645,What does Mrs. Geller say she is afraid of?,TEXT,anti_keyword
+R0646,What does Joey say Monica lost?,TEXT,fact_what
+R0647,Is Chandler whispering?,AUDIO,delivery
+R0648,What does Mrs. Geller say just before she pauses?,BOTH,time_aligned
+R0649,"What news does the man share, and is he excited or worried about it?",BOTH,fact_plus_tone
+R0650,"What does the second speaker say, and how does it sound?",BOTH,time_aligned
+R0651,Did Rachel mean it?,AUDIO,sincerity
+R0652,Does Chandler raise his voice at the end?,AUDIO,delivery
+R0653,Which of Rachel's two answers is the honest one?,BOTH,anti_keyword
+R0654,Where does Joey say he left his scarf?,TEXT,fact_where
+R0655,Is Mike losing patience?,AUDIO,anti_keyword
+R0656,Who does Mike blame for ruining the trip?,TEXT,fact_who
+R0657,Does Emily's voice tremble?,AUDIO,delivery
+R0658,What is the receptionist being sarcastic about?,BOTH,sarcasm_meaning
+R0659,"What does the interviewer order, and does she seem happy with it?",BOTH,fact_plus_tone
+R0660,What does the speaker say while the audience is still laughing?,BOTH,time_aligned
+R0661,"What does Paul ask Chandler for, and does he sound surprised or bored?",BOTH,fact_plus_tone
+R0662,"What news does Monica share, and is she excited or worried about it?",BOTH,fact_plus_tone
+R0663,Is Mrs. Geller being sincere?,AUDIO,sincerity
+R0664,Is the man slightly sad or extremely sad?,AUDIO,intensity
+R0665,What does Rachel shout?,BOTH,time_aligned
+R0666,How old does the speaker say Ross is?,TEXT,fact_number
+R0667,"Who does Ross mention, and is his tone scared or relaxed?",BOTH,fact_plus_tone
+R0668,Does anyone else react audibly while Chandler is speaking?,AUDIO,background
+R0669,Which word does the receptionist emphasize the most?,BOTH,time_aligned
+R0670,Is the man really happy about Mike's audition result?,BOTH,anti_keyword
+R0671,Is the woman slightly bored or extremely bored?,AUDIO,intensity
+R0672,Does Ursula raise her voice at the end?,AUDIO,delivery
+R0673,"What does Carol praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0674,What time does Carol have to be at Monica's apartment?,TEXT,fact_when
+R0675,Where does the man say Chandler grew up?,TEXT,fact_where
+R0676,Are there long silences in the middle of the speaker's line?,AUDIO,delivery
+R0677,What does Joey say the movie is about?,TEXT,fact_content
+R0678,Who does Mrs. Geller say was crying at the birthday party?,TEXT,anti_keyword
+R0679,"Which day does Ursula mention, and does she sound annoyed about it?",BOTH,fact_plus_tone
+R0680,The man says everything is fine. Is that how he sounds?,BOTH,mismatch
+R0681,Does Emily sound sincere or sarcastic?,AUDIO,emotion
+R0682,Who does Monica blame for ruining the interview?,TEXT,fact_who
+R0683,Which friend does Mr. Geller ask for help with the new job?,TEXT,fact_who
+R0684,Which feeling comes through when Ursula speaks?,AUDIO,emotion
+R0685,What gift did Emily get for Ross?,TEXT,fact_what
+R0686,"Where does Monica say she is going, and how does she feel about it?",BOTH,fact_plus_tone
+R0687,Why does Gunther say he was late?,TEXT,fact_reason
+R0688,What does Carol shout?,BOTH,time_aligned
+R0689,What does Mr. Geller suggest they do tonight?,TEXT,fact_content
+R0690,"What does the man offer Gunther, and is the offer sincere?",BOTH,fact_plus_tone
+R0691,Name the date the waiter talks about and describe his attitude toward it.,BOTH,fact_plus_tone
+R0692,What nickname does the doctor use for Gunther?,TEXT,fact_what
+R0693,Is Ross happy or upset right now?,AUDIO,emotion
+R0694,Which friend does Phoebe ask for help with the apartment?,TEXT,fact_who
+R0695,Which TV show does Joey say he is on?,TEXT,fact_what
+R0696,What does Richard promise Phoebe?,TEXT,fact_content
+R0697,What does the woman say just before she pauses?,BOTH,time_aligned
+R0698,Monica calls the dinner a success. Does she believe it?,BOTH,mismatch
+R0699,Does Mrs. Geller hesitate before answering?,AUDIO,delivery
+R0700,"What does Janice praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0701,"What does Richard offer Joey, and is the offer sincere?",BOTH,fact_plus_tone
+R0702,"How long ago did Joey meet Emily, according to him?",TEXT,fact_when
+R0703,What gift did Phoebe get for Rachel?,TEXT,fact_what
+R0704,What does Joey say his job is?,TEXT,fact_content
+R0705,How many people does Gunther say are coming to the party?,TEXT,fact_number
+R0706,What words does Janice say while laughing?,BOTH,time_aligned
+R0707,Does Carol sound as nice as her words suggest?,BOTH,mismatch
+R0708,Is Mr. Geller being sincere?,AUDIO,sincerity
+R0709,What color does Rachel want to paint the room?,TEXT,fact_what
+R0710,Which country does Ross say he is flying to?,TEXT,fact_where
+R0711,"Where does the interviewer say she is going, and how does she feel about it?",BOTH,fact_plus_tone
+R0712,What does the doctor really mean when he calls the sweater wonderful?,BOTH,sarcasm_meaning
+R0713,Is Paul happy or upset right now?,AUDIO,emotion
+R0714,"What does Chandler praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0715,Does Mrs. Geller sigh before speaking?,AUDIO,delivery
+R0716,"Where does the man say he is going, and how does he feel about it?",BOTH,fact_plus_tone
+R0717,What does Joey say Mike should do next?,TEXT,fact_content
+R0718,Does Phoebe sound annoyed or amused?,AUDIO,emotion
+R0719,Which item does Mr. Geller ask Janice to return?,TEXT,fact_what
+R0720,What gift did Richard get for Janice?,TEXT,fact_what
+R0721,Who does the woman blame for ruining the date?,TEXT,fact_who
+R0722,How many chairs does the waiter say she has?,TEXT,fact_number
+R0723,Is Mr. Geller actually okay?,AUDIO,anti_keyword
+R0724,How does Mr. Geller feel while speaking?,AUDIO,emotion
+R0725,Which friend is Richard annoyed with?,BOTH,anti_keyword
+R0726,What does the woman tell Gunther about the wedding?,TEXT,fact_content
+R0727,Did the woman take it well?,AUDIO,anti_keyword
+R0728,"What does the receptionist order, and does he seem happy with it?",BOTH,fact_plus_tone
+R0729,Does Joey's anger build up or stay the same?,AUDIO,intensity
+R0730,When does the interviewer say the game starts?,TEXT,fact_when
+R0731,Why does Monica want to leave the subway early?,TEXT,fact_reason
+R0732,Does Janice raise her voice at the end?,AUDIO,delivery
+R0733,Is Janice teasing Mike or actually annoyed?,AUDIO,sincerity
+R0734,What does the woman say she was nervous about before the interview?,TEXT,anti_keyword
+R0735,Does the man sigh before speaking?,AUDIO,delivery
+R0736,Why does the man say he was late?,TEXT,fact_reason
+R0737,"What time does Phoebe say she will be back, and does she sound sure?",BOTH,fact_plus_tone
+R0738,Is the man in a hurry?,AUDIO,anti_keyword
+R0739,Does Monica's voice tremble?,AUDIO,delivery
+R0740,The interviewer says she doesn't care about the wedding. Does she sound like she means it?,BOTH,sarcasm_meaning
+R0741,Is the waiter fed up with them?,AUDIO,anti_keyword
+R0742,What job does Monica say she applied for?,TEXT,fact_what
+R0743,What does the man tell Phoebe about the trip?,TEXT,fact_content
+R0744,"How long ago did Paul meet Rachel, according to him?",TEXT,fact_when
+R0745,Did Monica see that coming?,AUDIO,anti_keyword
+R0746,What does Carol say just before she pauses?,BOTH,time_aligned
+R0747,What day is the concert Phoebe mentions?,TEXT,fact_when
+R0748,Is there background noise while the man talks?,AUDIO,background
+R0749,How does Joey feel while speaking?,AUDIO,emotion
+R0750,What nickname does Ursula use for Mike?,TEXT,fact_what
+R0751,How old does Emily say Mike is?,TEXT,fact_number
+R0752,Gunther says he doesn't care about the promotion. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0753,Are there long silences in the middle of Rachel's line?,AUDIO,delivery
+R0754,What does the nurse tell Chandler about the wedding?,TEXT,fact_content
+R0755,What does Phoebe say in the sing-song part of the line?,BOTH,time_aligned
+R0756,"Where does Joey say he is going, and how does he feel about it?",BOTH,fact_plus_tone
+R0757,Is Monica shouting or speaking quietly?,AUDIO,delivery
+R0758,Where does the man say he left his umbrella?,TEXT,fact_where
+R0759,What reason does Mike give for quitting his job?,TEXT,fact_reason
+R0760,What does the woman say Joey should do next?,TEXT,fact_content
+R0761,Does the interviewer raise her voice at the end?,AUDIO,delivery
+R0762,What emotion does Ursula say she felt at the interview?,TEXT,anti_keyword
+R0763,"According to Chandler, why is Phoebe sad?",TEXT,anti_keyword
+R0764,"On a scale from calm to furious, where is the doctor?",AUDIO,intensity
+R0765,"Where does Mr. Geller say he is going, and how does he feel about it?",BOTH,fact_plus_tone
+R0766,Did the man mean it?,AUDIO,sincerity
+R0767,Which part of the sentence does Mr. Geller say quietly?,BOTH,time_aligned
+R0768,Is the woman's compliment genuine?,AUDIO,sincerity
+R0769,What does Chandler say Monica yelled at him about?,TEXT,anti_keyword
+R0770,What does Richard suggest they do tonight?,TEXT,fact_content
+R0771,"How should the doctor's ""that's nice"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0772,Does the audience react with laughter or with an 'aww'?,AUDIO,background
+R0773,Is Janice slightly excited or extremely excited?,AUDIO,intensity
+R0774,What is the man's mood in this clip?,AUDIO,emotion
+R0775,Is Ross's apology about the baby sincere?,BOTH,anti_keyword
+R0776,What does Janice say she is excited about?,TEXT,anti_keyword
+R0777,Does Richard's voice crack at any point?,AUDIO,delivery
+R0778,What job does the receptionist say she applied for?,TEXT,fact_what
+R0779,"What does the man praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0780,"Which emotion best describes Mike: hurt, angry, or fine?",AUDIO,emotion
+R0781,How old does Rachel say Gunther is?,TEXT,fact_number
+R0782,What does Rachel order at the hotel?,TEXT,fact_what
+R0783,"Which emotion best describes the man: hurt, angry, or fine?",AUDIO,emotion
+R0784,Why can't the woman come to the party?,TEXT,fact_reason
+R0785,Who does Paul blame for ruining the dinner?,TEXT,fact_who
+R0786,"On a scale from calm to furious, where is the woman?",AUDIO,intensity
+R0787,What does the doctor say about his singing voice?,TEXT,anti_keyword
+R0788,Is there a mismatch between what the interviewer says and how she says it?,BOTH,mismatch
+R0789,How would you describe Mr. Geller's tone?,AUDIO,emotion
+R0790,Which of Chandler's statements is sarcastic?,BOTH,sarcasm_meaning
+R0791,"What does the speaker say about the wedding, and what does her voice reveal about how she really feels?",BOTH,fact_plus_tone
+R0792,Does the first speaker have an accent?,AUDIO,speaker_info
+R0793,Where is Emily going after the party?,TEXT,fact_where
+R0794,"What does Gunther say about the audition, and what does his voice reveal about how he really feels?",BOTH,fact_plus_tone
+R0795,What does Phoebe really mean when she calls the sweater great?,BOTH,sarcasm_meaning
+R0796,"What does Carol want Phoebe to do, and how urgent does she sound?",BOTH,fact_plus_tone
+R0797,What is Carol really trying to say to Janice?,BOTH,anti_keyword
+R0798,"Who does Joey mention, and is his tone sincere or sarcastic?",BOTH,fact_plus_tone
+R0799,What does Ursula say she forgot at the airport?,TEXT,fact_what
+R0800,What question does Mr. Geller ask Phoebe?,TEXT,fact_content
+R0801,Why does the doctor say she is upset?,TEXT,anti_keyword
+R0802,What time does Ursula have to be at the bar?,TEXT,fact_when
+R0803,Who is Emily mocking?,BOTH,anti_keyword
+R0804,Does Gunther's tone match the words he uses?,BOTH,mismatch
+R0805,Which friend does Mr. Geller ask for help with the trip?,TEXT,fact_who
+R0806,Is the receptionist's compliment genuine?,AUDIO,sincerity
+R0807,What day is the audition the interviewer mentions?,TEXT,fact_when
+R0808,"What does Monica insist about herself, and is that believable from her delivery?",BOTH,sarcasm_meaning
+R0809,Is Gunther shouting or speaking quietly?,AUDIO,delivery
+R0810,What does Gunther say he forgot at the coffee house?,TEXT,fact_what
+R0811,Does anyone else react audibly while Janice is speaking?,AUDIO,background
+R0812,Was Paul being sarcastic?,AUDIO,sincerity
+R0813,Does Gunther's voice crack at any point?,AUDIO,delivery
+R0814,What words does Ross say while laughing?,BOTH,time_aligned
+R0815,What does Monica suggest they do tonight?,TEXT,fact_content
+R0816,Which of Emily's statements is sarcastic?,BOTH,sarcasm_meaning
+R0817,What time does Ross have to be at the office?,TEXT,fact_when
+R0818,Who does the receptionist say borrowed his wallet?,TEXT,fact_who
+R0819,"How long ago did Mrs. Geller meet Emily, according to her?",TEXT,fact_when
+R0820,What does Monica say she is sarcastic about at work?,TEXT,anti_keyword
+R0821,"What news does Mr. Geller share, and is he excited or worried about it?",BOTH,fact_plus_tone
+R0822,"On a scale from calm to furious, where is Mrs. Geller?",AUDIO,intensity
+R0823,Is Richard being sincere?,AUDIO,sincerity
+R0824,What is Emily's mood in this clip?,AUDIO,emotion
+R0825,How many people does Phoebe say are coming to the trip?,TEXT,fact_number
+R0826,What does the nurse say makes him bored?,TEXT,anti_keyword
+R0827,"What does Phoebe insist about herself, and is that believable from her delivery?",BOTH,sarcasm_meaning
+R0828,"What does the nurse order, and does she seem happy with it?",BOTH,fact_plus_tone
+R0829,Is Mike's compliment genuine?,AUDIO,sincerity
+R0830,How strongly does Ross react?,AUDIO,intensity
+R0831,Which of Phoebe's statements is sarcastic?,BOTH,sarcasm_meaning
+R0832,"Where does Gunther say he is going, and how does he feel about it?",BOTH,fact_plus_tone
+R0833,Why does the waiter want to leave the subway early?,TEXT,fact_reason
+R0834,Is there background noise while Ursula talks?,AUDIO,background
+R0835,Does Janice speak quickly or slowly?,AUDIO,delivery
+R0836,How many people does Mike say are coming to the baby shower?,TEXT,fact_number
+R0837,Why does Joey say he was late?,TEXT,fact_reason
+R0838,What sound does Paul say the umbrella made?,TEXT,anti_keyword
+R0839,Does Paul sound as nice as his words suggest?,BOTH,mismatch
+R0840,What is Janice faking enthusiasm about?,BOTH,anti_keyword
+R0841,What does the waiter say right after the audience laughs?,BOTH,time_aligned
+R0842,"What does Gunther ask Rachel, and is he hopeful or resigned?",BOTH,fact_plus_tone
+R0843,What does Emily really mean when she calls the haircut great?,BOTH,sarcasm_meaning
+R0844,Who does Ursula say she ran into at the airport?,TEXT,fact_who
+R0845,Does Joey's voice match what he says about the apartment?,BOTH,sarcasm_meaning
+R0846,Which noise does Chandler say kept him up all night?,TEXT,anti_keyword
+R0847,What is Mike's mood in this clip?,AUDIO,emotion
+R0848,Does Paul sound as great as his words suggest?,BOTH,mismatch
+R0849,"What does Ursula say about the party, and what does her voice reveal about how she really feels?",BOTH,fact_plus_tone
+R0850,How would you describe Joey's tone?,AUDIO,emotion
+R0851,Is Carol really happy about Chandler's promotion?,BOTH,anti_keyword
+R0852,Is Carol being sincere?,AUDIO,sincerity
+R0853,Are there long silences in the middle of Ursula's line?,AUDIO,delivery
+R0854,What does Monica really mean when she calls the song nice?,BOTH,sarcasm_meaning
+R0855,"Which emotion best describes Janice: happy, nervous, or bored?",AUDIO,emotion
+R0856,"Which day does Paul mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0857,Is the man shouting or speaking quietly?,AUDIO,delivery
+R0858,Gunther says everything is fine. Is that how he sounds?,BOTH,mismatch
+R0859,Why can't Monica come to the trip?,TEXT,fact_reason
+R0860,"Does the man actually agree with Ross, despite what he says?",BOTH,sarcasm_meaning
+R0861,How does Gunther feel while speaking?,AUDIO,emotion
+R0862,What time does Phoebe have to be at the coffee house?,TEXT,fact_when
+R0863,Is more than one person talking at the same time?,AUDIO,speaker_info
+R0864,"What does Rachel praise, and is the praise genuine?",BOTH,sarcasm_meaning
+R0865,"Which day does the interviewer mention, and does she sound annoyed about it?",BOTH,fact_plus_tone
+R0866,Who does the nurse say is coming to the party?,TEXT,fact_who
+R0867,Does the man raise his voice at the end?,AUDIO,delivery
+R0868,Which friend does the woman ask for help with the promotion?,TEXT,fact_who
+R0869,Does the voice belong to the same person in both halves of the clip?,AUDIO,speaker_info
+R0870,What does the woman offer to bring to the baby shower?,TEXT,fact_what
+R0871,Does Paul's anger build up or stay the same?,AUDIO,intensity
+R0872,What job does Janice say she applied for?,TEXT,fact_what
+R0873,Is Mrs. Geller serious or joking?,AUDIO,sincerity
+R0874,What job does the doctor say he applied for?,TEXT,fact_what
+R0875,How many people speak in this clip?,AUDIO,speaker_info
+R0876,Which city does Richard say he is moving to?,TEXT,fact_where
+R0877,Why can't Chandler come to the date?,TEXT,fact_reason
+R0878,Is Janice happy or upset right now?,AUDIO,emotion
+R0879,Does Mrs. Geller sound as nice as her words suggest?,BOTH,mismatch
+R0880,Is Ursula slightly upset or extremely upset?,AUDIO,intensity
+R0881,Was Joey being sarcastic?,AUDIO,sincerity
+R0882,Which item does Mike ask Ross to return?,TEXT,fact_what
+R0883,How much did Ursula pay for the sunglasses?,TEXT,fact_number
+R0884,Was Janice serious?,AUDIO,anti_keyword
+R0885,Was Janice being sarcastic?,AUDIO,sincerity
+R0886,Which name does Rachel say with the most irritation?,BOTH,time_aligned
+R0887,"What does the woman ask Joey for, and does she sound disgusted or pleased?",BOTH,fact_plus_tone
+R0888,Does Paul's voice crack at any point?,AUDIO,delivery
+R0889,Does Mr. Geller's voice match what he says about the vacation?,BOTH,sarcasm_meaning
+R0890,When does Joey say the dinner starts?,TEXT,fact_when
+R0891,Does Gunther raise his voice at the end?,AUDIO,delivery
+R0892,"On a scale from calm to furious, where is Paul?",AUDIO,intensity
+R0893,Does anyone else react audibly while Mrs. Geller is speaking?,AUDIO,background
+R0894,What does Mrs. Geller say her job is?,TEXT,fact_content
+R0895,Which word does Mike emphasize the most?,BOTH,time_aligned
+R0896,Does Emily's voice crack at any point?,AUDIO,delivery
+R0897,Did Ross mean it?,AUDIO,sincerity
+R0898,Is Chandler bluffing?,AUDIO,anti_keyword
+R0899,Which feeling comes through when Emily speaks?,AUDIO,emotion
+R0900,How does Ursula actually feel about the plan she agrees to?,BOTH,anti_keyword
+R0901,"How should Monica's ""no problem"" be interpreted, given how she says it?",BOTH,sarcasm_meaning
+R0902,Does Rachel's anger build up or stay the same?,AUDIO,intensity
+R0903,What does the interviewer shout?,BOTH,time_aligned
+R0904,"What does Gunther offer Janice, and is the offer sincere?",BOTH,fact_plus_tone
+R0905,Is the waiter slightly disgusted or extremely disgusted?,AUDIO,intensity
+R0906,Which word does Ross emphasize the most?,BOTH,time_aligned
+R0907,Who does the man say he ran into at the subway?,TEXT,fact_who
+R0908,Which restaurant does Monica recommend?,TEXT,fact_content
+R0909,Who is Gunther talking about when he mentions the party?,TEXT,fact_who
+R0910,What does Chandler really mean when he calls the song perfect?,BOTH,sarcasm_meaning
+R0911,Does Mr. Geller's voice match what he says about the audition?,BOTH,sarcasm_meaning
+R0912,Is Phoebe happy or upset right now?,AUDIO,emotion
+R0913,Does Joey drag out any word for effect?,AUDIO,delivery
+R0914,"What does Mrs. Geller ask Gunther for, and does she sound disgusted or pleased?",BOTH,fact_plus_tone
+R0915,How strongly does Richard react?,AUDIO,intensity
+R0916,Who does Monica say is coming to the date?,TEXT,fact_who
+R0917,What does Monica really mean when she calls the dress great?,BOTH,sarcasm_meaning
+R0918,"Does Paul actually agree with Phoebe, despite what he says?",BOTH,sarcasm_meaning
+R0919,Does the waiter's voice tremble?,AUDIO,delivery
+R0920,Who does the nurse say borrowed her tickets?,TEXT,fact_who
+R0921,What day is the audition Rachel mentions?,TEXT,fact_when
+R0922,Who does Emily say is coming to the concert?,TEXT,fact_who
+R0923,Is Janice in a good mood?,AUDIO,anti_keyword
+R0924,"How long ago did Mr. Geller meet Emily, according to him?",TEXT,fact_when
+R0925,What nickname does Gunther use for Joey?,TEXT,fact_what
+R0926,What does Paul want to cook for the meeting?,TEXT,fact_what
+R0927,"Which day does Richard mention, and does he sound annoyed about it?",BOTH,fact_plus_tone
+R0928,Which friend does Emily ask for help with the wedding?,TEXT,fact_who
+R0929,Which word does Richard emphasize the most?,BOTH,time_aligned
+R0930,Does Ursula sound as fantastic as her words suggest?,BOTH,mismatch
+R0931,Which of Janice's statements is sarcastic?,BOTH,sarcasm_meaning
+R0932,What does the man say when his voice breaks?,BOTH,time_aligned
+R0933,What words does Mike say while laughing?,BOTH,time_aligned
+R0934,Which feeling comes through when Carol speaks?,AUDIO,emotion
+R0935,"What does the woman want Rachel to do, and how urgent does she sound?",BOTH,fact_plus_tone
+R0936,What is Monica's mood in this clip?,AUDIO,emotion
+R0937,"How should Richard's ""thanks"" be interpreted, given how he says it?",BOTH,sarcasm_meaning
+R0938,Is Janice's compliment genuine?,AUDIO,sincerity
+R0939,Mr. Geller says he doesn't care about the vacation. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0940,How does Ross feel while speaking?,AUDIO,emotion
+R0941,What does Emily say made Monica laugh?,TEXT,anti_keyword
+R0942,"According to the doctor, why is Joey sad?",TEXT,anti_keyword
+R0943,Which part of the sentence does the doctor say quietly?,BOTH,time_aligned
+R0944,Does Ross's voice tremble?,AUDIO,delivery
+R0945,"Which emotion best describes Rachel: frustrated, relieved, or calm?",AUDIO,emotion
+R0946,Does anyone else react audibly while Richard is speaking?,AUDIO,background
+R0947,Is Mike teasing Rachel or actually annoyed?,AUDIO,sincerity
+R0948,How old does Paul say Gunther is?,TEXT,fact_number
+R0949,Is the waiter really happy about Monica's audition result?,BOTH,anti_keyword
+R0950,Where does Mr. Geller say Janice grew up?,TEXT,fact_where
+R0951,"What does Paul say about the apartment, and what does his voice reveal about how he really feels?",BOTH,fact_plus_tone
+R0952,What does Joey say in a whisper?,BOTH,time_aligned
+R0953,"What does Janice offer Gunther, and is the offer sincere?",BOTH,fact_plus_tone
+R0954,What does Emily say she is allergic to?,TEXT,fact_what
+R0955,"Who does Paul mention, and is his tone angry or calm?",BOTH,fact_plus_tone
+R0956,Who does Ross blame for ruining the wedding?,TEXT,fact_who
+R0957,Who is Mr. Geller talking about when he mentions the breakup?,TEXT,fact_who
+R0958,"How should Gunther's ""no problem"" be interpreted, given how he says it?",BOTH,sarcasm_meaning
+R0959,How does Ross actually feel about the plan he agrees to?,BOTH,anti_keyword
+R0960,Where does Phoebe say Rachel grew up?,TEXT,fact_where
+R0961,Which of Mike's statements is sarcastic?,BOTH,sarcasm_meaning
+R0962,Who does the woman say is coming to the birthday party?,TEXT,fact_who
+R0963,Does Ursula sound sincere or sarcastic?,AUDIO,emotion
+R0964,Which friend does Emily ask for help with the new job?,TEXT,fact_who
+R0965,Does the speaker's voice match what she says about the new job?,BOTH,sarcasm_meaning
+R0966,"What does Janice order, and does she seem happy with it?",BOTH,fact_plus_tone
+R0967,Does anyone else react audibly while Joey is speaking?,AUDIO,background
+R0968,What does the speaker say he is afraid of?,TEXT,anti_keyword
+R0969,What does the receptionist say just before she pauses?,BOTH,time_aligned
+R0970,Does Mr. Geller sound as fantastic as his words suggest?,BOTH,mismatch
+R0971,Does Paul's voice match what he says about the apartment?,BOTH,sarcasm_meaning
+R0972,When does Janice say the meeting starts?,TEXT,fact_when
+R0973,Which item does the man ask Rachel to return?,TEXT,fact_what
+R0974,What question does Mike ask Rachel?,TEXT,fact_content
+R0975,Is Mike happy or upset right now?,AUDIO,emotion
+R0976,What does Ursula say Gunther should do next?,TEXT,fact_content
+R0977,Is there background noise while Monica talks?,AUDIO,background
+R0978,Is Joey being sincere?,AUDIO,sincerity
+R0979,Which word does Paul emphasize the most?,BOTH,time_aligned
+R0980,"What does Carol offer Monica, and is the offer sincere?",BOTH,fact_plus_tone
+R0981,What words does Monica say while laughing?,BOTH,time_aligned
+R0982,How many people does the waiter say are coming to the wedding?,TEXT,fact_number
+R0983,Does Richard's voice match what he says about the promotion?,BOTH,sarcasm_meaning
+R0984,What does Carol say she forgot at the subway?,TEXT,fact_what
+R0985,Where is Mrs. Geller going after the concert?,TEXT,fact_where
+R0986,Are there long silences in the middle of Phoebe's line?,AUDIO,delivery
+R0987,What does the speaker say he forgot at the coffee house?,TEXT,fact_what
+R0988,Why does Phoebe refuse to eat the turkey?,TEXT,fact_reason
+R0989,What does Carol order at Monica's apartment?,TEXT,fact_what
+R0990,Did Mrs. Geller mean it?,AUDIO,sincerity
+R0991,"Who does Rachel mention, and is her tone annoyed or amused?",BOTH,fact_plus_tone
+R0992,Chandler says he doesn't care about the party. Does he sound like he means it?,BOTH,sarcasm_meaning
+R0993,"Whose birthday is it, according to Monica?",TEXT,fact_who
+R0994,What gift did Ursula get for Ross?,TEXT,fact_what
+R0995,Is the nurse's compliment genuine?,AUDIO,sincerity
+R0996,"What does Mike say about the audition, and what does his voice reveal about how he really feels?",BOTH,fact_plus_tone
+R0997,Why does the nurse want to leave the hospital early?,TEXT,fact_reason
+R0998,How many different voices can be heard?,AUDIO,speaker_info
+R0999,What does Mrs. Geller say Monica yelled at her about?,TEXT,anti_keyword
+R1000,What does Mrs. Geller suggest they do tonight?,TEXT,fact_content
